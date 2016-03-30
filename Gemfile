@@ -37,6 +37,8 @@ group :test do
   gem 'rspec-rails', '~> 3.3.0'
 end
 
+  gem 'tzinfo-data', platform: [:mingw, :mswin, :x64_mingw]
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
