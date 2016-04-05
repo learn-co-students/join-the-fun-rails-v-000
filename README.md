@@ -1,4 +1,4 @@
-
+fouaskndkjando
 
 # Join the Fun
 
@@ -8,7 +8,7 @@ Flatiron School has started its own taxi service, FlatironX, and we need to
 start developing the application's domain model!
 
 Three basic models have already been created, Passenger, Ride, and Taxi. Just run
-`rake db:migrate` to apply their migrations to the database. Run `rake db:migrate RAILS_ENV=test` to apply the migrations to the test database. 
+`rake db:migrate` to apply their migrations to the database. Run `rake db:migrate RAILS_ENV=test` to apply the migrations to the test database.
 
 The next step is set up a "has_many :through" relationship between
 these three models so that we can keep track of who's driving who around.
