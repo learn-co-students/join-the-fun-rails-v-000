@@ -7,3 +7,4 @@ class CreateRides < ActiveRecord::Migration
     end
   end
 end
+#I am batman

@@ -5,3 +5,4 @@ class CreatePassengers < ActiveRecord::Migration
     end
   end
 end
+#I am batman
