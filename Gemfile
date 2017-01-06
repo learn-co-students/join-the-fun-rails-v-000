@@ -34,7 +34,7 @@ group :doc do
 end
 
 group :test do
-  gem 'rspec-rails', '~> 3.3.0'
+  gem 'rspec-rails', '~> 3.4.2'
 end
 
 # Use ActiveModel has_secure_password
