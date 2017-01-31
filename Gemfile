@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# Don't advance rake beyond 10.x or rake tasks fail.
+gem 'rake', '< 11.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
 gem 'rails', '4.2.0'
