@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="join the fun development" uuid="11dab9c9-5f2f-40f7-a4ea-55de8e4e000e">
+      <database-info product="SQLite" version="3.16.1" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <auth-required>false</auth-required>
+      <introspection-schemas>*:main</introspection-schemas>
+    </data-source>
+    <data-source name="test.sqlite3" uuid="2690e98d-5b24-4b98-9dfd-e9bbe7f37a55">
+      <database-info product="SQLite" version="3.16.1" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <auth-required>false</auth-required>
+      <introspection-schemas>*:main</introspection-schemas>
+    </data-source>
+  </component>
+</project>
