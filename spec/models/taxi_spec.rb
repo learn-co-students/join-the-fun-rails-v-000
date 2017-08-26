@@ -4,6 +4,7 @@ describe Taxi do
   let(:taxi) { subject }
 
   it 'has many passengers through rides' do
+    binding.pry
     passenger = Passenger.create
     taxi.passengers << passenger
     taxi.save
@@ -12,6 +13,7 @@ describe Taxi do
   end
 
   it 'has many rides' do
+    binding.pry
     ride = Ride.create
     taxi.rides << ride
     taxi.save

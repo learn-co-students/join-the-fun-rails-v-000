@@ -5,7 +5,7 @@ describe Passenger do
 
   it 'has many taxis through rides' do
     taxi = Taxi.create
-
+    binding.pry
     passenger.taxis << taxi
     passenger.save
 
@@ -14,10 +14,9 @@ describe Passenger do
 
   it 'has many rides' do
     ride = Ride.create
-
+    binding.pry
     passenger.rides << ride
     passenger.save
-
     expect(ride.passenger).to eq(passenger)
   end
 end
