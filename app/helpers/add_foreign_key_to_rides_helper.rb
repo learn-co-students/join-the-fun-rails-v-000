@@ -1,0 +1,2 @@
+module AddForeignKeyToRidesHelper
+end

@@ -1,0 +1,2 @@
+class AddForeignKeyToRidesController < ApplicationController
+end
