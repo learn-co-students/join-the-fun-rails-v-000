@@ -1,4 +1,4 @@
-class CreateTaxis < ActiveRecord::Migration
+class Taxis < ActiveRecord::Migration
   def change
     create_table :taxis do |t|
       t.timestamps null: false
