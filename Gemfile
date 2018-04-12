@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '~> 4.2'
 
-gem 'rake', '< 11.0'
+gem 'rake'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.3.10'
