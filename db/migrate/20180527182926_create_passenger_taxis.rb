@@ -1,6 +1,6 @@
-class CreateRides < ActiveRecord::Migration
+class CreatePassengerTaxis < ActiveRecord::Migration
   def change
-    create_table :rides do |t|
+    create_table :passenger_taxis do |t|
       t.integer :passenger_id
       t.integer :taxi_id
       t.timestamps null: false
