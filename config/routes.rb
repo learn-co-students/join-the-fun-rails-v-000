@@ -1,4 +1,46 @@
 JoinTheFunRails::Application.routes.draw do
+  get 'passengers/new'
+
+  get 'passengers/create'
+
+  get 'passengers/edit'
+
+  get 'passengers/update'
+
+  get 'passengers/destroy'
+
+  get 'passengers/index'
+
+  get 'passengers/show'
+
+  get 'rides/new'
+
+  get 'rides/create'
+
+  get 'rides/edit'
+
+  get 'rides/update'
+
+  get 'rides/destroy'
+
+  get 'rides/index'
+
+  get 'rides/show'
+
+  get 'taxis/new'
+
+  get 'taxis/create'
+
+  get 'taxis/edit'
+
+  get 'taxis/update'
+
+  get 'taxis/destroy'
+
+  get 'taxis/index'
+
+  get 'taxis/show'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
