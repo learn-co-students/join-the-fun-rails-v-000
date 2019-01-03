@@ -10,7 +10,7 @@ Three basic models have already been created, `Passenger`, `Ride`, and `Taxi`. J
 development and test databases, respectively.
 
 The next step is set up a `has_many :through` relationship between
-these three models so that we can keep track of who's driving who around.
+these three models so that we can keep track of who's drivinlearng who around.
 It will work like this:
 
 `Taxi -< Rides >- Passengers`
