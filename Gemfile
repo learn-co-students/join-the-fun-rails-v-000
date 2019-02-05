@@ -50,3 +50,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'bundler', '~> 1.16', '>= 1.16.1'
